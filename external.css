@@ -1,0 +1,158 @@
+/* Mengna Xia */
+/*
+color scheme name: water waves
+#06397F - Dark cerulean
+#4B8BAE - approx Boston Blue
+#E8FDFE - very light aqua
+#1a9bba - Blue
+#E8FDFE - approx Baby Blue
+#000000 - black
+#7c26cb - purple
+#0080ff - blue, body background
+#FFFFCC - light yellow for navbar
+#FF0000 - red
+*/
+
+body{
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+	font-size: small;
+	color: #000000;
+	background-color: #0080ff;
+}
+
+h1{
+	font-family: Papyrus,Harrington,fantasy;
+	font-size: 150%;
+	color: #E8FDFE;
+	background-color: #06397F;
+	padding: 5px;
+	text-align: center;
+}
+
+h2{
+	font-family: Papyrus,Harrington,fantasy;
+	font-size: 120%;
+	color: #E8FDFE;
+	background-color: #4B8BAE;
+	padding: 2px;
+	font-style: italic; 
+}
+
+.top{
+	font-style: italic; 
+	font-size: 80%;
+	text-align: right;
+}
+
+#allcontent{
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 10px 20px 5px 20px;
+	background-color: #E8FDFE;	
+}
+
+#sidebar{
+	width: 200px;
+	float: right;
+	border:#06397F thin solid;
+	padding: 10px;
+	margin: 0px 0px 10px 10px;
+	text-align: center;
+}
+
+p#foot{
+	border:#1a9bba 1.5px dotted;	
+	border-radius: 10px;
+	padding: 5px 0px 5px 5px;
+	font-size: 80%;
+	text-align: center;
+}
+
+.subtopic{
+	margin: 0px 30px 40px 30px;
+}
+
+.right{
+	float:right;
+	margin: 0px 0px 0px 5px;
+}
+
+.left{
+	float:left;
+	margin: 0px 5px 0px 0px;
+}
+
+#drop{
+	font-size: 200%;
+}
+
+a:link{
+	color:#0000ff;  
+}
+
+a:visited{
+	color:#7c26cb;
+}
+
+a:hover{
+	background: #FFFF00;  
+}
+
+table{
+	border: thin solid black;
+	border-collapse: collapse;
+	text-align:left;	
+}
+
+td,th{
+	border: thin dotted black;
+	padding: 5px;	
+}
+
+th{
+	background-color:#1a9bba;
+}
+
+form{
+	display:table;
+	padding: 5px; 
+}
+
+div.tablerow{
+	display: table-row;
+}
+
+div.tablerow p{
+	display:table-cell;
+	vertical-align:top;
+	padding: 3px;
+	
+}
+
+div.tablerow p:first-child{
+	text-align: right;
+}
+
+#navbar{
+	text-align:center;
+	background-color:#FFFFCC;
+}
+
+#navbar li{
+	list-style:none;
+	display:inline;
+	margin-right:20px;
+}
+
+#navbar li a:link{
+	color:#FF0000;
+}
+
+#navbar li a:visited{
+	color:#000000;
+}
+
+#navbar li a:hover{
+	color:#000000;
+}

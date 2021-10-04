@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html>
+<!-- Mengna Xia-->
+
+	<head>
+		<meta charset="utf-8">
+		<title>Request Information Form</title>
+		<link type="text/css" rel="stylesheet" href="external.css">
+	</head>
+	
+	<body>
+	<div id="allcontent">
+	
+	<h1>Form</h1>
+	
+	<div id="navbar">
+		<ul>
+			<li><a href="index.html">Home Page</a></li>
+			<li>|</li>
+			<li><a href="blob_facts.html">Blobfish Facts<a></li>
+			<li>|</li>
+			<li><a href="form.html">Subscription</a></li>
+		</ul>
+	</div>
+	
+	<p><span id="drop">I</span>f you find this topic interesting. Fill the form blow for requesting more information about blobfish. </P>
+	
+	<form action="http://www.webclass.net/finalproj.php" method="post">
+	  <div class="tablerow">
+		<p>Do you want to receive email update about blobfish? </P>
+		<p>
+			<input type="radio" name="YN[]" value="Yes" checked> Yes <br>
+			<input type="radio" name="YN[]" value="No"> No
+		</p>
+	  </div>
+	  
+	  <div class="tablerow">	
+		<p>Choose what topic you want to subscribe?</p>
+		<p>
+			<input type="checkbox" name="topic" value="news about blobfish"> News about blobfish <br>
+			<input type="checkbox" name="topic" value="preservation"> Preservation<br>
+			<input type="checkbox" name="topic" value="donation"> Donation information
+		</p>
+	  </div>
+	  
+	  <div class="tablerow">
+		<p>How often do you want to receive the update?</p>
+		<p>
+			<select name="frequency">
+			 <option value="daily">Daily</option>
+			 <option value="weekly">Weekly</option>
+			 <option value="monthly">Monthly</option>
+			</select>
+		</p>
+	  </div>	
+		
+	  <div class="tablerow">	
+		<P>Your name:</P>
+		<p><input type="text" name="name" value=""></p>
+	  </div>
+		
+	  <div class="tablerow">	
+		<p>Email Address:</p>
+		<p><input type="text" name="email" value=""></p>
+	  </div>
+		
+	  <div class="tablerow">
+		<p>Customer Comments:</p>
+		<p><textarea name="comments" rows="10" cols="48"></textarea></p>
+	  </div>
+
+	  <div class="tablerow">
+		<p></p>
+		<p><input type="submit" value="Submit"></p>
+	  </div>
+	  
+	</form>
+	
+	<p id="foot">Return to the <a href="index.html" title="Back to Homepage">Homepage.</a></p>
+	</div>
+	</body>
+</html>
